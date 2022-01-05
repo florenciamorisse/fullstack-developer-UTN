@@ -1,0 +1,14 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'The Nautigal', cursive; */
+h2{
+    color: red;
+    font-family: 'Amatic SC', cursive;
+
+}
+p{
+    font-family: 'The Nautigal', cursive;
+}
+.linkedin{
+    color:blue;
+    font-size: 20px;
+}

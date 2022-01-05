@@ -2,10 +2,19 @@
     background-color: red;
     width: 200px;
     height: 300px;
+    margin-bottom: 50px;
+    box-shadow: 15px 10px 10px black;
+    border-radius: 20px;
+    padding:20px;
+    box-sizing: border-box;
 }
 .azul{
-    background-color: blue;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     width: 200px;
     height: 300px;
     color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-size: 14px;
 }
