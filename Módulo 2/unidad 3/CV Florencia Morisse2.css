@@ -100,6 +100,9 @@ a {
 .programas {
   list-style-type: none;
 }
+.contacto{
+  margin-left:-20px;
+}
 
 @media (max-width: 1200px) {
   body {
@@ -199,7 +202,7 @@ a {
 }
 @media (max-width: 740px) {
   body {
-    font-size: 9px;
+    font-size: 7.8px;
 
     background: rgb(133, 240, 153);
     background: -moz-linear-gradient(
@@ -226,4 +229,12 @@ a {
   li {
     font-size: 14px;
   }
+  .sub2 {
+    
+    margin-top: -1.8em;
+  }
+  h4{
+    margin-top: 0;
+  }
+  
 }
