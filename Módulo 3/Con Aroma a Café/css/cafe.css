@@ -15,11 +15,11 @@ body {
 }
 .texto {
   font-family: 'Bebas Neue', cursive;
-  font-size: 70px;
+  font-size: 75px;
   color: white;
   position: absolute;
   top: 3%;
-  left: 40%;
+  left: 39%;
 }
 
 #taza01 {
