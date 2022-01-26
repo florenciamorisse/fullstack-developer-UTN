@@ -1,0 +1,105 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat Alternates', sans-serif; */
+
+/* INICIO HOME */
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 17px;
+}
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+#taza01 {
+  z-index: -1;
+}
+nav {
+  background-color: transparent;
+  margin-bottom: 2em;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  position: absolute;
+  top: 16%;
+  color: antiquewhite;
+  padding: 4px;
+}
+#bot1 {
+  left: 40%;
+}
+#bot2 {
+  left: 44.7%;
+}
+#bot3 {
+  left: 52%;
+}
+#bot4 {
+  left: 57.5%;
+}
+#bot5 {
+  left: 64%;
+}
+
+#bot1:hover, #bot2:hover, #bot3:hover, #bot4:hover, #bot5:hover {
+  color: black;
+  font-weight: bold;
+}
+
+#bot1.activo {
+  border-radius: 5px;
+  background-color: rgba(196, 177, 136, 0.5);
+}
+
+footer {
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 20px;
+}
+/* FIN HOME */
+/* INICIO PRODUCTOS */
+
+#bot2.activo {
+    border-radius: 5px;
+    background-color: rgba(196, 177, 136, 0.5);
+  }
+/* FIN PRODUCTOS */
+/* INICIO LOCALES */
+#bot3.activo {
+    border-radius: 5px;
+    background-color: rgba(196, 177, 136, 0.5);
+  }
+
+/* FIN LOCALES */
+/* INICIO EMPRESA */
+#bot4.activo {
+    border-radius: 5px;
+    background-color: rgba(196, 177, 136, 0.5);
+  }
+
+/* FIN EMPRESA */
+/* INICIO CONTACTO */
+#bot5.activo {
+    border-radius: 5px;
+    background-color: rgba(196, 177, 136, 0.5);
+  }
+/* FIN CONTACTO */
