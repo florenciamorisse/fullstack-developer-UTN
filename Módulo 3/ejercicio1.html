@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1</title>
+</head>
+<body>
+    <script>
+        var distancia
+        distancia=prompt("decime la cantidad de metros que tenés que recorrer y te digo cuál tu mejor forma de llegar")
+        
+        if (distancia>0 && distancia<1000) {
+            alert("Te conviene ir a Pie")
+        }else if(distancia>=1000 && distancia<10000) {
+            alert("Te conviene ir en Bicicleta")
+        }else if(distancia>=10000 && distancia<30000) {
+            alert("Te conviene ir en Colectivo")
+        }else if(distancia>=30000 && distancia<100000){
+            alert("Te aconviene ir en Auto")
+        }else if(distancia>= 100000){
+            alert("Te conviene ir en Avión")
+        }else{
+            alert("Te quedaste en casa!")
+        }
+     
+
+
+    </script>
+</body>
+</html>
