@@ -1,6 +1,8 @@
 const Footer =(props)=>{
     return(
-        <div>Footer</div>
+        <footer>
+            <p>Diseñado por Flavia Ursino -</p>
+        </footer>
     );
 }
 
