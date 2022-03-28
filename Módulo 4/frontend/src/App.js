@@ -2,10 +2,12 @@
 // import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
-import ContactoPage from "./pages/ContactoPage";
+
 import HomePage from "./pages/HomePage";
 import NosotrosPage from "./pages/NosotrosPage";
+import ServiciosPage from "./pages/Servicios";
 import NovedadesPage from "./pages/NovedadesPage";
+import ContactoPage from "./pages/ContactoPage";
 
 import Header from "./components/layaout/Header";
 import Nav from "./components/layaout/Nav";
