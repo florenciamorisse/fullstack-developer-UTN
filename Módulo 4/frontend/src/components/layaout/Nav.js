@@ -5,7 +5,7 @@ const Nav =(props)=>{
         <nav>
             <div className="holder">
                 <ul>
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/home">Home</Link></li>
                     <li><Link to="/nosotros">Nosotros</Link></li>
                     <li><Link to="/servicios">Servicios</Link></li>
                     <li><Link to="/galeria">Galería</Link></li>
