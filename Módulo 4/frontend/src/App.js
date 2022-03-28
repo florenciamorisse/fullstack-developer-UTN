@@ -18,7 +18,7 @@ function App() {
       <Nav/>
       <Switch>
         <Route path="/homepage" exact component={HomePage}/>
-        <Route path="/nostros" exact component={NosotrosPage}/>
+        <Route path="/nosotros" exact component={NosotrosPage}/>
         <Route path="/novedades" exact component={NovedadesPage}/>
         <Route path="/contacto" exact component={ContactoPage}/>
       </Switch>

@@ -1,4 +1,4 @@
-const ContactoPage=(props)=>{
+const ContactoPage =(props)=>{
     return(
         <main className="holder">
             <div className="columna left">
