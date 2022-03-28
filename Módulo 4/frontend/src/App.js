@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import NosotrosPage from "./pages/NosotrosPage";
-import ServiciosPage from "./pages/Servicios";
+import ServiciosPage from "./pages/ServiciosPage";
 import NovedadesPage from "./pages/NovedadesPage";
 import ContactoPage from "./pages/ContactoPage";
 
@@ -19,8 +19,10 @@ function App() {
       <Header/>
       <Nav/>
       <Switch>
-        <Route path="/homepage" exact component={HomePage}/>
+        <Route path="/home" exact component={HomePage}/>
         <Route path="/nosotros" exact component={NosotrosPage}/>
+        <Route path="/servicios" exact component={ServiciosPage}/>
+        <Route path="/galeria" exact component={GaleriaPage}/>
         <Route path="/novedades" exact component={NovedadesPage}/>
         <Route path="/contacto" exact component={ContactoPage}/>
       </Switch>

@@ -1,4 +1,4 @@
-const HomePage =(props)=>{
+const ServiciosPage =(props)=>{
     return(
         <main className="holder">
             <h2>Servicios</h2>
@@ -35,4 +35,4 @@ const HomePage =(props)=>{
     );
 }
 
-export default HomePage;
+export default ServiciosPage;
