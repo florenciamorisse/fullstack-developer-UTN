@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var nosotrosRouter = require('./routes/nosotros');
 var novedadesRouter = require('./routes/novedades');
 var contactoRouter = require('./routes/contacto');
+const { use } = require('./routes/index');
 
 
 var app = express();
@@ -21,7 +22,8 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
