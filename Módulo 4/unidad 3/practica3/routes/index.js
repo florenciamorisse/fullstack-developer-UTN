@@ -6,4 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Florencia' });
 });
 
-module.exports = router
+module.exports = router;
