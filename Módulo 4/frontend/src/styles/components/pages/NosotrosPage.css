@@ -1,9 +1,10 @@
 .historia p {
   font-size: 0.8em;
 }
-.personas {
-  overflow: hidden;
+.historia{
+  padding-right: 148px;
 }
+
 .persona {
   width: 18%;
   border: 1px solid gray;
@@ -23,7 +24,7 @@
   max-width: 70%;
 }
 .persona h5,
-.perosna h6 {
+.persona h6 {
   text-align: center;
   font-weight: normal;
   color: #2e64a1;
@@ -44,3 +45,7 @@
 .persona:first-child {
   margin-left: 0;
 } 
+#cinco{
+ margin-top: 20px; 
+margin-left: 0;
+}

@@ -19,25 +19,25 @@ const NosotrosPage =(props)=>{
                 </div>
                 <div className="persona" >
                     <img src="img/nosotros/nosotros2.jpg" alt="Juan Gomez"/>   
-                    <h5>Juan Gomez</h5>
+                    <h5>Laura Martinez</h5>
                     <h6>Gerente General</h6>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum molestiae culpa corporis at, impedit aut eaque accusantium unde officiis itaque officia suscipit blanditiis eos consequatur saepe perspiciatis laborum aliquam laboriosam?</p>
                 </div>
-                <div className="persona">
+                <div className="persona"  >
                     <img src="img/nosotros/nosotros3.jpg" alt="Juan Gomez"/>   
-                    <h5>Juan Gomez</h5>
+                    <h5>Martín Gomez</h5>
                     <h6>Gerente General</h6>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum molestiae culpa corporis at, impedit aut eaque accusantium unde officiis itaque officia suscipit blanditiis eos consequatur saepe perspiciatis laborum aliquam laboriosam?</p>
                 </div>
                 <div className="persona">
                     <img src="img/nosotros/nosotros4.jpg" alt="Juan Gomez"/>   
-                    <h5>Juan Gomez</h5>
+                    <h5>Florencia Flores</h5>
                     <h6>Gerente General</h6>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum molestiae culpa corporis at, impedit aut eaque accusantium unde officiis itaque officia suscipit blanditiis eos consequatur saepe perspiciatis laborum aliquam laboriosam?</p>
                 </div>
-                <div className="persona">
+                <div id="cinco" className="persona">
                     <img src="img/nosotros/nosotros5.jpg" alt="Juan Gomez"/>   
-                    <h5>Juan Gomez</h5>
+                    <h5>Pablo López</h5>
                     <h6>Gerente General</h6>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum molestiae culpa corporis at, impedit aut eaque accusantium unde officiis itaque officia suscipit blanditiis eos consequatur saepe perspiciatis laborum aliquam laboriosam?</p>
                 </div>
