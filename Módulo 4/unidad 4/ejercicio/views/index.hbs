@@ -1,0 +1,24 @@
+<h1>{{title}}</h1>
+
+
+{{#unless conocido}}
+<p>Cómo es tu nombre?</p>
+<form action="/ingresar" method="post">
+    <input type="text" name="nombre"><button>Ingresar</button>
+</form>
+
+<a href="/salir">Salir</a>
+
+{{/unless}}
+
+{{#if conocido}}
+<p>Hola {{nombre}}, de qué equipo de fútbol sos hincha?
+    <form action="/buscar" method="post">
+    <input type="text" name="equipo">
+    <button>buscar</button>
+</form> 
+<a href="/salir">Salir</a>
+</p>
+{{/if}}
+
+
