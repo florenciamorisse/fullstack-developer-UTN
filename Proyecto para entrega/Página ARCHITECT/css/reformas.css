@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Akshar', sans-serif;
+    /* para que en el diseño me queden dos franjas a los costados */
+    /* padding: 90px 120px 0 120px; */ 
+    color: black;
+}
+
+.header{
+   background-color: #EDF0F3 ;
+    height: 100px;
+    /* para que quede fijo */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.barra-superior{
+    background-color: black;
+    color: white;
+    /* para que los iconos queden a la derecha */
+    display: flex;
+    justify-content: space-between;
+ 
+}
+i{
+     /* para que se separen entre sí */
+     margin:5px 6px;
+     font-size: 20px;   
+      
+}
+.facebook:hover{
+    color: #3b5998;
+    transition: .5s;
+}
+.instagram:hover{
+    color: #C13584;
+    transition: .5s;
+}
+.linkedin:hover{
+    color: #0e76a8;
+    transition: .5s;
+}
+.pinterest:hover{
+    color: #c8232c;
+    transition: .5s;
+}
+
+
+.icono{
+    color: #C6C4CF;
+    
+}
+.pinterest{
+    margin-right:120px;
+}
+.contacto{
+    font-family: 'Oswald', sans-serif;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #C6C4CF ;
+    font-size: 18px;
+}
+.contacto:hover{
+    color: white;
+    transition: .5s;
+}
+.nav{
+    /* para que me quede el logo a la izquierda y el nav a la derecha */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    /* para sacarle el subrayado */
+    text-decoration: none;
+    color: grey;
+       
+}
+.nav-link:hover{
+    color: black;
+    transition: .5s;
+}
+.logo{
+    height: 50px;
+    padding-left: 60px;
+    padding-top: 3px;
+    line-height: 85px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 98px;
+    /* para sacarle los puntitos */
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 17px;
+    /* para que se separen entre sí */
+    margin:0 25px;
+    /* para que se centre en el nav */
+    line-height: 85px;
+    /* por si escribo un item con más de una palabra, que no me la corte */
+    width: max-content; 
+}
+.one{
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size:30px;
+    padding: 0 20px;
+    line-height: 60px;
+    /* para que no se vea en dispositivos tipo escritorio */
+    display: none;
+}
+
