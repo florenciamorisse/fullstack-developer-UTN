@@ -68,6 +68,11 @@ body {
   /* para que no se vea en dispositivos tipo escritorio */
   display: none;
 }
+.logo-whatsapp{
+  height: 70px;
+  margin-top: 653px;
+  margin-left: 26px;
+}
 
 
 /* Main */
