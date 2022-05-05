@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Akshar", sans-serif;
+  color: #201f1f;
+}
+
+/* Header */
+
+.header {
+  background-color: rgba(0, 0, 0, 0.72);
+  height: 100px;
+  /* para que quede fijo */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav {
+  /* para que me quede el logo a la izquierda y el nav a la derecha */
+  display: flex;
+  justify-content: space-between;
+  color: #201f1f;
+}
+.nav-link {
+  /* para sacarle el subrayado */
+  text-decoration: none;
+  color: #d1d5d4;
+}
+.nav-menu-link:hover {
+  color: white;
+  transition: 0.5s;
+}
+.logo {
+  height: 100px;
+  padding-left: 60px;
+  padding-top: 0px;
+  line-height: 85px;
+}
+.nav-menu {
+  display: flex;
+  margin-right: 98px;
+  /* para sacarle los puntitos */
+  list-style: none;
+}
+.nav-menu-item {
+  font-size: 17px;
+  /* para que se separen entre sí */
+  margin: 0 25px;
+  /* para que se centre en el nav */
+  line-height: 85px;
+  /* por si escribo un item con más de una palabra, que no me la corte */
+  width: max-content;
+}
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  /* para que no se vea en dispositivos tipo escritorio */
+  display: none;
+}
+
+
+/* Main */
+
+.contenedor {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  /* para que no se pegue al texto */
+  margin: 20px 0;
+}
+.parallax {
+  background-image: url(../img/portada2.jpg);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  /* para que se vea el titulo */
+  z-index: -2;
+  margin-top: -1;
+}
+.titulo {
+  color: #f26f05;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 201px;
+  z-index: -1;
+  text-shadow: 2px 2px 2px black;
+}
+.img-main {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  background-color: #e5e7e9;
+  text-align: center;
+  vertical-align: middle;
+  padding: 50px 20px;
+  margin-top: 0;
+}
+.texto {
+  padding: 20px 20px;
+  text-align: center;
+}
+.titulo2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+h3 {
+  margin-top: 20px;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.items2 {
+  flex-direction: row;
+  margin: 20px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+.cuadradas {
+  width: 225px;
+}
+
+/* footer */
+
+.contenedor-footer {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  padding-bottom: 100px;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.foto-footer {
+  width: 100%;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.empresa {
+  width: 20%;
+}
+ul li {
+  list-style: none;
+  margin: 3px;
+}
+ul li a {
+  text-decoration: none;
+}
+i {
+  /* para que se separen entre sí */
+  margin: 8px 6px;
+  font-size: 25px;
+}
+.facebook:hover {
+  color: #3b5998;
+  transition: 0.5s;
+}
+.instagram:hover {
+  color: #c13584;
+  transition: 0.5s;
+}
+.linkedin:hover {
+  color: #0e76a8;
+  transition: 0.5s;
+}
+.pinterest:hover {
+  color: #c8232c;
+  transition: 0.5s;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  body {
+    font-family: "Akshar", sans-serif;
+    /* para que en el diseño me queden dos franjas a los costados */
+    /* padding: 90px 120px 0 120px; */
+    color: #201f1f;
+  }
+}
