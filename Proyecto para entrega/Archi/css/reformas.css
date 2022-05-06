@@ -5,7 +5,7 @@
 
 body {
   font-family: "Akshar", sans-serif;
-  color: #201f1f;
+  color: #505355;
 }
 a{
   text-decoration: none;
@@ -133,6 +133,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 200px;
 }
 .items2 {
   flex-direction: row;
@@ -143,12 +144,16 @@ h3 {
 .cuadradas {
   width: 225px;
 }
+/* BIM */
 .galeria{
   background-color: rgba(206, 208, 210,.5);
+  padding-bottom: 55px;
+  margin-bottom: 20px;
 }
 #galeriabim .col-lg-4{
   margin: 0 !important;
-  padding: 25px;
+  padding: 20px ;
+
 }
 #galeriabim img{
   width: 100%;
@@ -157,7 +162,26 @@ h3 {
 #galeriabim img:hover{
   border: 5px solid rgba(0, 0, 0, 0.3);
 }
-
+/* planos */
+.planos{
+  background-color: rgba(206, 208, 210,.5);
+  margin-bottom: 20px;
+  padding: 80px 200px;
+}
+.listaplanos{
+  
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.listaplanos li{
+  padding: 7px;
+  text-align: center;
+}
+.planos01{
+  padding: 20px 0;
+  height: 275px;
+}
 /* footer */
 
 .contenedor-footer {
