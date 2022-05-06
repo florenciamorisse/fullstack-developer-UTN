@@ -7,6 +7,9 @@ body {
   font-family: "Akshar", sans-serif;
   color: #201f1f;
 }
+a{
+  text-decoration: none;
+}
 
 /* Header */
 
@@ -139,6 +142,20 @@ h3 {
 }
 .cuadradas {
   width: 225px;
+}
+.galeria{
+  background-color: rgba(206, 208, 210,.5);
+}
+#galeriabim .col-lg-4{
+  margin: 0 !important;
+  padding: 25px;
+}
+#galeriabim img{
+  width: 100%;
+  height: 250px;
+}
+#galeriabim img:hover{
+  border: 5px solid rgba(0, 0, 0, 0.3);
 }
 
 /* footer */
