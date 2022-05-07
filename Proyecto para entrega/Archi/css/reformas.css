@@ -172,15 +172,25 @@ h3 {
   
   font-size: 20px;
   font-weight: bold;
-  padding: 20px 0;
+  padding: 20px 0 20px 200px;
 }
 .listaplanos li{
-  padding: 7px;
-  text-align: center;
+  margin: 7px;
+ 
 }
 .planos01{
-  padding: 20px 0;
+  
   height: 275px;
+  margin-bottom: 50px;
+}
+.planos02{
+  height: 275px;
+  margin: 20px 0 20px 200px ;
+}
+.listadeplanos2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 /* footer */
 
