@@ -221,14 +221,11 @@ h3 {
 .columna .left{
     border-right: 1px solid gray;
 
-}
-.columna.right p{
-    font-size: 0.9em;
+}  
 
-}
-.columna.right ul li{
-    font-size: 0.8em;
-    
+.logo2{
+  height: 100px;
+  margin: 20px 0 0 50px ;
 }
 .formulario label{
     vertical-align: top;
@@ -237,7 +234,7 @@ h3 {
 }
 .formulario input, .formulario textarea{
     background-color: rgba(198, 208, 210, .5);
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid #999;
     padding: 0.4em 0.6em;
     font-size: 0.8em;
