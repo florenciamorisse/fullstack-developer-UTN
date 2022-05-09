@@ -113,12 +113,12 @@ a{
   background-color: #e5e7e9;
   text-align: center;
   vertical-align: middle;
-  padding: 50px 20px;
+  padding: 20px 20px;
   margin-top: 0;
 }
 .texto {
-  padding: 20px 20px;
-  text-align: center;
+  padding: 0px 20px;
+  text-align: justify;
 }
 .titulo2 {
   text-align: center;
@@ -178,6 +178,9 @@ h3 {
   margin: 7px;
  
 }
+.listadeplanos2 li{
+  margin: 7px;
+}
 .planos01{
   
   height: 275px;
@@ -193,8 +196,15 @@ h3 {
   margin-top: 20px;
 }
 /* Reformas */
-#galeriareformas{
-  padding: 20px 100px;
+#galeriareformas img{
+ padding: 18px;
+}
+.titulosteel{
+  font-size: 30px;
+}
+.steel{
+  text-align: justify;
+  font-size: 20px;
 }
 
 /* footer */
