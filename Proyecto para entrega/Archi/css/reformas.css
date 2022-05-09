@@ -7,7 +7,7 @@ body {
   font-family: "Akshar", sans-serif;
   color: #505355;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -77,8 +77,7 @@ a{
   margin-left: 26px;
 } */
 
-
-/* Main */
+/* Main del home*/
 
 .contenedor {
   position: relative;
@@ -145,133 +144,129 @@ h3 {
   width: 225px;
 }
 /* BIM */
-.galeria{
-  background-color: rgba(206, 208, 210,.5);
+.galeria {
+  background-color: rgba(206, 208, 210, 0.5);
   padding-bottom: 55px;
   margin-bottom: 20px;
 }
-#galeriabim .col-lg-4{
+#galeriabim .col-lg-4 {
   margin: 0 !important;
-  padding: 20px ;
-
+  padding: 20px;
 }
-#galeriabim img{
+#galeriabim img {
   width: 100%;
   height: 250px;
 }
-#galeriabim img:hover{
+#galeriabim img:hover {
   border: 5px solid rgba(0, 0, 0, 0.3);
 }
 /* planos */
-.planos{
-  background-color: rgba(206, 208, 210,.5);
+.planos {
+  background-color: rgba(206, 208, 210, 0.5);
   margin-bottom: 20px;
   padding: 80px 200px;
 }
-.listaplanos{
-  
+.listaplanos {
   font-size: 20px;
   font-weight: bold;
   padding: 20px 0 20px 200px;
 }
-.listaplanos li{
-  margin: 7px;
- 
-}
-.listadeplanos2 li{
+.listaplanos li {
   margin: 7px;
 }
-.planos01{
-  
+.listadeplanos2 li {
+  margin: 7px;
+}
+.planos01 {
   height: 275px;
   margin-bottom: 50px;
 }
-.planos02{
+.planos02 {
   height: 275px;
-  margin: 20px 0 50px 200px ;
+  margin: 20px 0 50px 200px;
 }
-.listadeplanos2{
+.listadeplanos2 {
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
 }
 /* Reformas */
-#galeriareformas img{
- padding: 18px;
+
+.img-reformas {
+  padding: 18px;
+  margin: 10px 0px 10px 13px;
 }
-.titulosteel{
+.titulosteel {
   font-size: 30px;
 }
-.steel{
+.steel {
   text-align: justify;
   font-size: 20px;
+  margin: 20px 45px;
 }
- /* contacto */
- .contacto{
-   background-color: rgba(206, 208, 210,.5);
-   margin-bottom:20px;
-   display: flex;
- }
+/* contacto */
+.contacto {
+  background-color: rgba(206, 208, 210, 0.5);
+  margin-bottom: 20px;
+  display: flex;
+}
 
- .columna {
+.columna {
   width: 50%;
   box-sizing: border-box;
   padding: 0.6em;
 }
-.columna .left{
-    border-right: 1px solid gray;
+.columna .left {
+  border-right: 1px solid gray;
+}
 
-}  
-
-.logo2{
+.logo2 {
   height: 100px;
-  margin: 20px 0 0 50px ;
+  margin: 20px 0 0 50px;
 }
-.formulario label{
-    vertical-align: top;
-    width: 97px;
-    display: inline-block;
+.formulario label {
+  vertical-align: top;
+  width: 97px;
+  display: inline-block;
 }
-.formulario input, .formulario textarea{
-    background-color: rgba(198, 208, 210, .5);
-    border-radius: 2px;
-    border: 1px solid #999;
-    padding: 0.4em 0.6em;
-    font-size: 0.8em;
-    width: 70%;
+.formulario input,
+.formulario textarea {
+  background-color: rgba(198, 208, 210, 0.5);
+  border-radius: 2px;
+  border: 1px solid #999;
+  padding: 0.4em 0.6em;
+  font-size: 0.8em;
+  width: 70%;
 }
-.formulario textarea{
-    resize: none; 
-     /* para que el usuario no maneje la medida */
-    height:10em;
+.formulario textarea {
+  resize: none;
+  /* para que el usuario no maneje la medida */
+  height: 10em;
 }
-.formulario input[type="submit"]{
-    background-color: #f26f05;
-    color: white;
-    font-size: 1em;
-    width: auto;
-    cursor: pointer;
-
+.formulario input[type="submit"] {
+  background-color: #f26f05;
+  color: white;
+  font-size: 1em;
+  width: auto;
+  cursor: pointer;
 }
-.formulario .acciones{
-    text-align: center;
-} 
-.infocontacto{
-  text-align:center;
+.formulario .acciones {
+  text-align: center;
+}
+.infocontacto {
+  text-align: center;
   margin-top: 20px;
   text-shadow: 1px 1px 1px grey;
 }
-.infocontacto2{
+.infocontacto2 {
   font-size: 15px;
   color: #505355;
   text-align: justify;
-  margin:20px 185px 16px 105px ;
-  
+  margin: 20px 185px 16px 105px;
 }
-::placeholder{
+::placeholder {
   color: whitesmoke;
   text-shadow: 1px 1px 1px grey;
-
 }
 
 /* footer */
@@ -336,11 +331,165 @@ i {
 
 /* responsive */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   body {
     font-family: "Akshar", sans-serif;
-    /* para que en el diseño me queden dos franjas a los costados */
-    /* padding: 90px 120px 0 120px; */
+    
     color: #201f1f;
+  } */
+  @media (max-width: 1500px){
+    .img-reformas{
+      width: 925px;      
+    }
+    .steel{
+      margin: 10px 200px;
+    }
+
+  }
+  @media (max-width: 1300px){
+    .img-reformas{
+      width: 825px;      
+    }
+  }
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+  .logo {
+    height: 75px;
+    padding-left: 30px;
+    padding-top: 0px;
+  }
+  .nav-menu-item {
+    font-size: 15px;
+    /* para que se separen entre sí */
+    margin: 0;
+    /* para que se centre en el nav */
+    line-height: 85px;
+  }
+  .img-main {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .plano01 {
+    padding: 0 200px;
+  }
+
+  .texto {
+    padding: 0px 200px;
+  }
+  .texto h3 {
+    font-size: 14px;
+  }
+  .titulo2 {
+    font-size: 28px;
+    padding-top: 20px;
+  }
+  .texto-encima {
+    font-size: 40px;
+  }
+  .planos01 {
+   margin: 0 0 30px 135px;
+  }
+  .planos02{
+    margin: 20px 0 50px 137px;
+  }
+  .listadeplanos2{
+    margin: 20px 0 62px 150px;
+  }
+  .titulosteel{
+    font-size: 22px;
+  }
+  .steel{
+    font-size: 16px;
+  }
+  .img-reformas{
+    margin: 20px 200px;
+    width: 735px;      
+  }
+  
+
+
+}
+@media(max-width:1160px){
+  .img-reformas{
+    
+    width: 600px;  
+    margin-bottom: 0;    
   }
 }
+@media(max-width:1027px){
+  .img-reformas{
+     
+    width: 500px;   
+    margin-bottom: 0;   
+  }
+}
+
+/* @media(max-width:992px){
+
+ body{
+   font-size: 13px;
+
+ }
+ h2{
+   background: rgb(216,226,237);
+background: -moz-linear-gradient(6deg, rgba(216,226,237,0.87718837535014) 4%, rgba(75,80,181,0.9710259103641457) 94%);
+background: -webkit-linear-gradient(6deg, rgba(216,226,237,0.87718837535014) 4%, rgba(75,80,181,0.9710259103641457) 94%);
+background: linear-gradient(6deg, rgba(216,226,237,0.87718837535014) 4%, rgba(75,80,181,0.9710259103641457) 94%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8e2ed",endColorstr="#4b50b5",GradientType=1);
+ }
+}
+@media(max-width:810px){
+ body{
+   font-size: 12px;
+   display: flex;
+   flex-direction: column;
+
+ }
+ 
+ section{
+   display:flex;
+   flex-direction: column;
+
+   
+ }
+ article{
+   width: 100%;
+   padding: 1.25em 1.25em 1.25em 0.62em;
+   position: relative;
+   box-sizing: border-box;
+ }
+ aside{
+   width:100%;
+   box-sizing: border-box;
+ }
+ 
+ 
+ h2 {
+   background: rgb(216,226,237);
+   background: -moz-linear-gradient(6deg, rgba(216,226,237,0.87718837535014) 4%, rgba(75,80,181,0.9710259103641457) 94%);
+   background: -webkit-linear-gradient(6deg, rgba(216,226,237,0.87718837535014) 4%, rgba(75,80,181,0.9710259103641457) 94%);
+   background: linear-gradient(6deg, rgba(216,226,237,0.87718837535014) 4%, rgba(75,80,181,0.9710259103641457) 94%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8e2ed",endColorstr="#4b50b5",GradientType=1);
+
+ }
+  h1, h4, h2, p, li{
+   font-size: 14px;
+ }
+ 
+}
+@media(max-width:740px){
+ body{
+   font-size:9px;
+
+
+ }
+ h1, h4, h2, p, li{
+   font-size: 14px;
+ }
+
+ 
+ 
+} */
