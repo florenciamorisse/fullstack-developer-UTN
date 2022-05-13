@@ -8,3 +8,4 @@ function scrollParallax(){
 
 }
 
+window.addEventListener('scroll', scrollParallax)

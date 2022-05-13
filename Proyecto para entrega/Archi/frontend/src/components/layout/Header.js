@@ -1,12 +1,13 @@
 import '../../styles/components/layout/Header.css'
+import logo3 from './../../../public/img/logo3.png'
 
 const Header =(props)=>{
     return(
         <header className="header">        
             <nav className="nav">
-                <a href="#" className="logo">
-                    <img className="logo" src="img/logo3.png" />
-                </a>
+                
+                    <img className="logo" src={logo3} />
+                
             <button className="nav-toggle">
                 <i className="fa-solid fa-bars"></i>
             </button>
