@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Akshar", sans-serif;
+    color: #505355;
+  }
+  a {
+    text-decoration: none;
+  }
+.header {
+    background-color: rgba(0, 0, 0, 0.72);
+    height: 100px;
+    /* para que quede fijo */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .nav {
+    /* para que me quede el logo a la izquierda y el nav a la derecha */
+    display: flex;
+    justify-content: space-between;
+    color: #201f1f;
+  }
+  .logo {
+    height: 100px;
+    padding-left: 60px;
+    padding-top: 0px;
+    line-height: 85px;
+  }
+  .nav-menu {
+    display: flex;
+    margin-right: 98px;
+    /* para sacarle los puntitos */
+    list-style: none;
+  }
+  .nav-menu-item {
+    font-size: 17px;
+    /* para que se separen entre sí */
+    margin: 0 25px;
+    /* para que se centre en el nav */
+    line-height: 85px;
+    /* por si escribo un item con más de una palabra, que no me la corte */
+    width: max-content;
+  }
+  
+  .nav-link {
+    /* para sacarle el subrayado */
+    text-decoration: none;
+    color: #d1d5d4;
+  }
+  .nav-menu-link:hover {
+    color: white;
+    transition: 0.5s;
+  }
+  .active {
+    color: white;
+  }
