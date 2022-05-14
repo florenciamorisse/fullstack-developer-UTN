@@ -34,8 +34,8 @@
   ul li a {
     text-decoration: none;
   }
-  i {
-    /* para que se separen entre sí */
+  .icon {
+    
     margin: 8px 6px;
     font-size: 32px;
   }
