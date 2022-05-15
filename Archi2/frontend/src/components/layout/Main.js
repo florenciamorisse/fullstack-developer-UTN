@@ -14,7 +14,7 @@ const Main= (props)=>{
                 
                 <div className="texto">
                     <p>
-                        <h1 text-align="center">Quienes Somos</h1>
+                        <h1 >Quienes Somos</h1>
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, explicabo harum. Ipsum laudantium magnam eius</h3><br/>
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolor maiores voluptatem unde provident, quaerat sequi incidunt fugiat. Numquam nemo ex animi commodi fugit sint pariatur modi maiores possimus ea!<br/><br/>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente tempora eligendi facilis neque ea iste nulla quibusdam numquam fugit. Id molestias nobis, dicta sunt quo esse commodi at a inventore.<br/><br/>

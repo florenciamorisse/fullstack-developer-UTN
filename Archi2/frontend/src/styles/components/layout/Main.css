@@ -17,6 +17,12 @@
     margin-top: 1.9em;
   
   }
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+  .texto p h1{
+    text-align: center;
+  }
+
   .img-main {
     display: flex;
     justify-content: space-between;

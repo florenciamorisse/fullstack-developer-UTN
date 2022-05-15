@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
   
   body {
     font-family: "Akshar", sans-serif;

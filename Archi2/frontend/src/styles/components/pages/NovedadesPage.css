@@ -1,0 +1,20 @@
+.novedades{  
+    background-color:rgba(206, 208, 210, 0.5);
+    margin-bottom: 20px;
+  }
+  .novedades img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+   
+  }
+  .novedades h3{
+    padding-top: 20px;
+    margin-top: 0;
+  }
+  .novedades h3,h4,p{
+    text-align: center;
+    
+  }

@@ -1,4 +1,6 @@
+import {NavLink} from 'react-router-dom';
 import '../../styles/components/layout/Header.css'
+
 
 const Header = (props) =>{
 
@@ -10,7 +12,7 @@ const Header = (props) =>{
                                 
                 <ul className="nav-menu ">
                     <li className="nav-menu-item">
-                        <a className="nav-menu-link nav-link active" href="index.html">Home</a>
+                        <NavLink className="nav-menu-link nav-link active" exact to="/">Home</NavLink>
                     </li>
                     <li className="nav-menu-item">
                         <a className="nav-menu-link nav-link" href="BIM.html">BIM</a>
@@ -34,5 +36,6 @@ const Header = (props) =>{
         </header>
     );
 };
+
 
 export default Header;
