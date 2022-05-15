@@ -9,7 +9,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3.2rem;
-    padding-bottom: 6.2em;
+    padding-bottom: 3.2em;
     text-shadow: 0.12em 0.12em 0.12em grey;
   }
   
@@ -29,15 +29,15 @@
   }
   ul li {
     list-style: none;
-    margin: 6.25em;
+    margin: 1.25em 1.25em 0 1.25em;
   }
   ul li a {
     text-decoration: none;
   }
   .icon {
     
-    margin: 0.5em 0.38em;
-    font-size: 2rem;
+    margin: 0.4em 0.38em;
+    font-size: 2.3rem;
   }
   .facebook:hover {
     color: #3b5998;
