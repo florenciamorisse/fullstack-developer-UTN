@@ -12,7 +12,7 @@
   }
   .header {
       background-color: rgba(0, 0, 0, 0.72);
-      height: 100px;
+      height: 6.25rem;
       /* para que quede fijo */
       position: fixed;
       width: 100%;
@@ -28,23 +28,23 @@
       color: #201f1f;
     }
     .logo {
-      height: 100px;
-      padding-left: 60px;
-      padding-top: 0px;
-      line-height: 85px;
+      height: 6.25rem;
+      padding-left: 3.75em;
+      padding-top: 0;
+      line-height: 5.3em;
     }
     .nav-menu {
       display: flex;
-      margin-right: 98px;
+      margin-right: 6.1em;
       /* para sacarle los puntitos */
       list-style: none;
     }
     .nav-menu-item {
-      font-size: 17px;
+      font-size: 1.1rem;
       /* para que se separen entre sí */
-      margin: 0 25px;
+      margin: 0 1.5em;
       /* para que se centre en el nav */
-      line-height: 85px;
+      line-height: 5.3em;
       /* por si escribo un item con más de una palabra, que no me la corte */
       width: max-content;
     }
