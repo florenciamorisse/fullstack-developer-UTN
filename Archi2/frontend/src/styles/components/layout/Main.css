@@ -1,0 +1,61 @@
+.contenedor {
+    position: relative;
+    padding-bottom: 20px;
+    
+  }
+  
+  .titulo {
+    color: #f26f05;
+    font-size: 4em;
+    text-align: center;
+    z-index: 1;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 78px;
+  
+  }
+  .img-main {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    background-color: rgba(206, 208, 210, 0.5);
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 20px;
+    margin-top: 0;
+  }
+  .plano01 {
+    padding: 70px 25px 30px 100px;
+  }
+  .texto {
+    padding: 0px 100px 20px 20px;
+    text-align: justify;
+  }
+  .titulo2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 200px;
+  }
+  .items2 {
+    flex-direction: row;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .cuadradas {
+    width: 225px;
+  }
